@@ -1,0 +1,44 @@
+.home{
+    width:100%;
+    position:absolute;
+    top:10vh;
+    background-image:url("./../../assets/home_food1.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-clip:text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+ backdrop-filter:blur(12px);
+ 
+}
+.home h1{
+    text-align:center;
+    color:white;
+    margin-left:10vw;
+    /* margin-top:30vh; */
+    font-size:10rem;
+}
+@media (max-width:411px){
+.home{
+    width:411px;
+}
+.home h1{
+    font-size:20px;
+}
+
+}
+
+@media (max-width: 600px) {
+    .home {
+        width: 100vw;
+        padding: 10px 0;
+        top: 18vh;
+        height:32vh;
+    }
+    .home h1 {
+        font-size: 2rem;
+        margin-left: 0;
+        text-align: center;
+    }
+}

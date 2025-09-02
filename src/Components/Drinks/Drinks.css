@@ -1,0 +1,83 @@
+.drink-list{
+      width:100vw;
+    height:100vh;
+    position:absolute;
+    top:255vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items:start;
+    gap:20px;
+    padding-top:0px;
+    margin-top:0px;
+
+  
+}
+.drink-list .drink-list-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.drink-list-container div{
+    background-color:rgb(223, 190, 208);
+    width:fit-content;
+    height:fit-content;
+   padding-left:12px;
+     border-radius:1.2em;
+     padding-top:12px;
+}
+.drink-list-container div button{
+    background-color:rgb(14, 189, 232);
+    border:none;
+    margin:10px;
+    margin-right:20px;
+    margin-left:20px;
+    height:30px;
+    border-radius:0.5em;
+}
+.drink-list-container div img{
+   border-radius:1.2em;
+   width:20vw;
+   height:fit-content;
+   min-height:40vh;
+   max-height:40vh;
+   
+
+}
+.drink-list .styleHeading{
+margin-left:30vw;
+  background-image:url("./../../assets/gradient-image.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:  center;
+    background-clip:text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  font-size:44px;
+}
+@media (max-width: 600px) {
+  .drink-list {
+    width: 100vw;
+    height: auto;
+    padding: 10px 0;
+    gap: 10px;
+    top:545vh;
+  }
+  .drink-list .drink-list-container {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .drink-list-container div img {
+    width: 80vw;
+    min-height: 20vh;
+    max-height: 30vh;
+  }
+  .drink-list .styleHeading {
+    margin-left: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+}

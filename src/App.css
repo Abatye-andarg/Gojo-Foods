@@ -1,0 +1,9 @@
+body{
+  position:relative;
+  margin:0px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  background-color:rgb(138, 134, 134);
+  transition:background 3s color 2s;
+}
